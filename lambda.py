@@ -25,7 +25,8 @@ def test_sdk():
     for bucket in buckets['Buckets']:
         print(bucket['Name'])
 
-def rekognition_method(bucket_name, key):
+def rekognition_method(bucket_name, key):carl
+
 
     # Creat rekognition client. must be same region as S3 bucket
     rekognition_client = boto3.client('rekognition', region_name='us-east-2')
