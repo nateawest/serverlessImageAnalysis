@@ -6,5 +6,9 @@
 
 ### Lambda
 
--s3 trigger on upload
--boto3 sdk for python
+- s3 trigger on upload
+- boto3 sdk for python
+
+### Rekognition
+
+- must be the same region as s3 or error msg
