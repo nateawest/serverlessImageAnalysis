@@ -2,7 +2,7 @@
 
 This Lambda function is triggered by a S3 upload. The bucket name and object key is parsed from the event parameter. 
 Rekogition uses the name and key to fetch the image from the S3 bucket. Rekognition generates labels from the image and the confidence score for each label.
-The image and labels are stored in dynamoDB.
+The image and labels are stored in a dynamoDB table.
 
 ## Goals
 
